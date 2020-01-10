@@ -1,4 +1,4 @@
-export interface IAuthorize {
+interface IAuthorize {
     url: string;
     state: string;
 }

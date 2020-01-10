@@ -1,22 +1,33 @@
 {
-  "name": "oauth2-sdk",
-  "version": "1.0.0",
-  "description": "三方权限认证模块",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MC-LiuWei/oauth2-sdk.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MC-LiuWei/oauth2-sdk/issues"
-  },
-  "homepage": "https://github.com/MC-LiuWei/oauth2-sdk#readme",
-  "dependencies": {
-    "axios": "^0.19.0"
-  }
+    "name": "oauthtosdk",
+    "version": "1.0.6",
+    "description": "三方权限认证模块",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "files": [
+        "lib",
+        "index.d.ts",
+        "index.js",
+        ".npmignore",
+        ".gitattributes",
+        ".gitignore",
+        "LICENSE",
+        "README.md"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MC-LiuWei/oauth2-sdk.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MC-LiuWei/oauth2-sdk/issues"
+    },
+    "homepage": "https://github.com/MC-LiuWei/oauth2-sdk#readme",
+    "dependencies": {
+        "@types/node": "^13.1.2",
+        "axios": "^0.19.0"
+    }
 }
